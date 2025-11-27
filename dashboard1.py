@@ -18,7 +18,7 @@ st.set_page_config(
 def carregar_dados():
     try:
         # Ler CSV processado do Jupyter
-        df = pd.read_csv('/home/kiki/projects/case-deep/dados_processados.csv')
+        df = pd.read_csv('/home/kiki/projects/case-deep/teste1/dados_processados.csv')
         return df
     except Exception as e:
         st.error(f"Erro ao carregar dados: {e}")
