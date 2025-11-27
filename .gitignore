@@ -1,5 +1,5 @@
 # Dados sensíveis
-dados_processados.csv
+# dados_processados.csv
 *.csv
 *.xlsx
 *.xls
